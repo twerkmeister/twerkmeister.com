@@ -1,0 +1,97 @@
+---
+title: Thomas Werkmeister
+---
+
+<!-- Add your site or application content here -->
+<a class="anchor" name="home"></a>
+<nav class="fixed-nav-bar bare-links">
+    <ul>
+        <a class="nav-link" href="#home"><li>Home</li></a>
+        <a class="nav-link" href="#projects"><li>Projects</li></a>
+        <a class="nav-link" href="#contact"><li>Contact</li></a>
+    </ul>
+</nav>
+
+<div class="main-container">
+  <div class="name-container">
+    <h2 class="mobile-name">Thomas Werkmeister</h2>
+    <%= image_tag 'me.jpg', :width => "250px", :height => "293px" %>
+    <h2 class="desktop-name">Thomas Werkmeister</h2>
+  </div>
+  <div class="content-container intro-container">
+    <p>
+      Welcome, this is my homebase on the web. It lists all the stuff I do online.</br></br>
+
+      Academically, I am a graduate student studying computer science at the <a href="http://hpi.de">Hasso Plattner Institute</a> in Potsdam, Germany. I focus on Natural Language Processing and Information Retrieval, and oftentimes use these techniques to analyze news media. Check out the Projects section, and let me know what you think! </br></br>
+
+      Professionally, I am the Co-Founder of <a href="http://scm.io">scalable minds</a>. We can help your business accelerate the development of your web and mobile applications or machine learning systems. </br></br>
+
+      Personally, I am an idealist who wants to nudge society to being more knowledgeable, open and participatory. I think we need to start addressing global issues together, instead of retreating into our own private bubbles.
+    </p>
+    <a href="assets/resume.pdf" target="_blank"><span class="resume-line">Download my resume</span></a>
+  </div>
+  <div class="spacer-container">
+    <a class="anchor" name="projects"></a>
+    <h1>Projects</h1>
+  </div>
+  <div class="content-container">
+    <p>
+      This section is a yet uncomplete list of projects I worked on during my studies.
+      <div class="project">
+        <h3 class="mobile-name">Tracking German News Topics</h3>
+        <a href="https://github.com/twerkmeister/scala-lda" target="_blank"><img src="img/projects/newstopics.png" width="250" height="153"></a>
+        <h3 class="desktop-name">Tracking German News Topics</h3>
+        <p>I implemented the topic clustering algorithm LDA and used it to analyze coverage of topics in german newspapers over time. The corpus contained rougly 20000 articles collected over 20 weeks. <a href="assets/tracking-german-news.pdf" target="_blank"> Whitepaper </a>
+        </p>
+      </div>
+      <div class="project">
+        <h3 class="mobile-name">Facial Expression Detection In Videos</h3>
+        <a href="https://github.com/normanrz/face-vid" target="_blank"><img src="img/projects/emotions.png" width="250" height="153"></a>
+        <h3 class="desktop-name">Facial Expression Detection In Videos</h3>
+        <p>We designed, trained and evaluated a deep neural network to automatically recognize facial expressions in videos. The used network architecure combined features from single frames with features of frame sequences.
+        </p>
+      </div>
+      <div class="project">
+        <h3 class="mobile-name">PivotPaper</h3>
+        <a href="http://pivotpaper.com" target="_blank"><img src="img/projects/pivotpaper.png" width="250" height="153"></a>
+        <h3 class="desktop-name">PivotPaper</h3>
+        <p>Pivotpaper provides you with a timeline depicting the hotness of a topic. Choose a timeframe of interest and explore relevant articles. This prototype came out of a startup weekend with a mixed team of software engineering and business students.
+        </p>
+      </div>
+      <div class="project">
+        <h3 class="mobile-name">Simple Phantom Cassandra Example</h3>
+        <a href="https://github.com/twerkmeister/simple-phantom-cassandra-example" target="_blank"><img src="img/projects/placeholder.png" width="250" height="153"></a>
+        <h3 class="desktop-name">Simple Phantom Cassandra Example</h3>
+        <p>This is a simple, but complete example on how to use the cassandra client library phantom for scala. It contains the small pieces that I found missing in the available tutorials.
+        </p>
+      </div>
+        <div class="project">
+        <h3 class="mobile-name">twerkmeister.com</h3>
+        <a href="httpsgithub.com/twerkmeister/twerkmeister.com" target="_blank"><img src="img/projects/twerkmeister.com.png" width="250" height="153"></a>
+        <h3 class="desktop-name">twerkmeister.com</h3>
+        <p>This website! It is written using the <a href="https://middlemanapp.com/" target="_blank">middleman framework</a> starting off the <a href="https://html5boilerplate.com/">HTML5 boilerplate template</a>.
+        </p>
+      </div>
+      <div class="project">
+        <h3 class="mobile-name">TweetRecommender</h3>
+        <a href="https://github.com/twerkmeister/tweetRecommender" target="_blank"><img src="img/projects/tweetrecommender.gif" width="250" height="153"></a>
+        <h3 class="desktop-name">TweetRecommender</h3>
+        <p>Using a news paper article as a starting point, this system recommends relevant tweets. Those tweets could contain additional information or state a different opinion, but should not simply quote the headline or parts of the article.
+        </p>
+      </div>
+    </p>
+  </div>
+  <div class="spacer-container">
+    <a class="anchor" name="contact"></a>
+    <h1>Contact</h1>
+  </div>
+  <div class="content-container contact-container bare-links">
+    <a href="https://github.com/twerkmeister" target="_blank"><i class="fa fa-github-square fa-4x"></i></a>
+    <a href="https://twitter.com/thwerkmeister" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a>
+    <a href="javascript:linkTo_UnCryptMailto('nbjmup;uipnbtAuxfslnfjtufs/dpn');"><i class="fa fa-envelope fa-4x"></i></a>
+    <a href="assets/pubkey.asc" target="_blank"><i class="fa fa-key fa-4x"></i></a>
+  </div>
+
+
+</div>
+
