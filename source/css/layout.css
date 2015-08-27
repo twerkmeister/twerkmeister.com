@@ -94,6 +94,11 @@ body {
   margin-top: 0px;
 }
 
+.pgp-fingerprint {
+  padding-top: 10px;
+  font-family: opensans-bold;
+}
+
 @media screen and (max-width: 768px) {
   .name-container {
     height: 150px;
@@ -133,6 +138,7 @@ body {
     margin-left: auto;
   }
 }
+
 
 @media screen and (min-width: 768px) {
   .name-container {
